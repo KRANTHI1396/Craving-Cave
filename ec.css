@@ -1,0 +1,100 @@
+*
+{
+    font-family: sans-serif;
+}
+body  {
+   
+}
+.logo
+{
+    height: 175px;
+   width: 175px;
+  cursor: pointer;
+  margin-left: -1in;
+  
+}
+.banner
+{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(0,0,0,0,0);
+    background-image: url(paperbg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.nav
+{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 10px;
+   
+    border-radius: 2px 1px;
+}
+.nav ul li a{
+    transition: 0.5s;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 25px;
+    
+}
+.nav ul li:hover::after
+{
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    transition: 0.5s;
+
+}
+.nav ul li a:hover{
+    background-color:black;
+    color: red;
+
+}
+img
+{
+    float: left;
+    border-radius: 25px;
+    border: 6px 6px solid black;
+    display: inline-block;
+    margin: 0px 60px;
+    margin-left: 5px;
+ 
+}
+.container
+{
+    text-align: justify;
+    text-wrap: wrap;
+    font-color:white;
+    margin-left: 5px;
+}
+h1
+{
+    color: black;
+}
+.p{
+    size: 1in;
+    margin-left: 5px;
+
+}
+
+
+
+
+
+
